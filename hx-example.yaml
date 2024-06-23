@@ -1,0 +1,84 @@
+- dsc_directory:
+    - Aberdeen UK: "002320004"
+    - B Antwerpen: "002050485"
+    - B Oostende: "002050480"
+    - B Oostende: "002059981"
+    - D Bremen Rescue: "002111240"
+    - DK Lyngby Radio: "002191000"
+    - F Ajaccio: "002275420"
+    - F Corsen: "002275300"
+    - F Etel: "002275000"
+    - F Etel: "002275010"
+    - F Gris-Nez: "002275100"
+    - F Jobourg: "002275200"
+    - F La Garde: "002275400"
+    - NL Kustwacht: "002442000"
+    - NO Coastal S: "002570300"
+    - NO CoastalRadio: "002570000"
+    - UK Belfast: "002320021"
+    - UK Dover: "002320010"
+    - UK Falmouth: "002320014"
+    - UK Holyhead: "002320018"
+    - UK Humber: "002320007"
+    - UK London CG: "002320063"
+    - UK MilfordHaven: "002320017"
+    - UK Shetland: "002320001"
+    - UK Solent: "002320011"
+    - UK Stornoway: "002320024"
+
+- group_directory:
+    - Navarea East: "036904000"
+
+- waypoints:
+    - MdRF1419: 33N58.8790 118W26.6820
+    - MdRFlag: 33N57.6480 118W27.7800
+    - MdRNorthEntra: 33N57.8490 118W27.8290
+    - MdRSouthEntra: 33N57.4810 118W27.5820
+    - RACE-2ES-17: 33N54.6980 118W27.5630
+    - RACE-A-17: 33N56.2430 118W29.6060
+    - RACE-AA-17: 33N55.7700 118W29.7990
+    - RACE-B-17: 33N56.4670 118W30.0500
+    - RACE-BB-17: 33N56.1070 118W30.4660
+    - RACE-D-17: 33N56.8270 118W30.3370
+    - RACE-DD-17: 33N56.6470 118W30.8990
+    - RACE-E-17: 33N57.2540 118W30.4170
+    - RACE-EE-17: 33N57.2880 118W31.0170
+    - RACE-F-17: 33N57.6690 118W30.2700
+    - RACE-G-17: 33N57.6110 118W28.8980
+    - RACE-H-17: 33N57.3670 118W28.6550
+    - RACE-J-17: 33N57.0510 118W28.6370
+    - RACE-Q-17: 33N56.2570 118W28.7790
+    - RACE-R-17: 33N57.6520 118W29.4340
+    - RACE-S-17: 33N57.1870 118W29.2160
+    - RACE-SM1-17: 34N00.1760 118W30.2260
+    - RACE-SS-17: 33N57.5470 118W28.0930
+    - RACE-T-17: 33N56.4640 118W31.4590
+    - RACE-V-17: 33N57.0070 118W29.7770
+
+- channels:
+    group_1:
+      - "06":
+          dsc: enabled
+      - "09":
+          name: TwoHar-CALLING
+      - "12":
+          name: Avalon-VTS
+      - "13":
+          dsc: enabled
+      - "68":
+          dsc: enabled
+      - "69":
+          dsc: enabled
+      - "71":
+          dsc: enabled
+      - "72":
+          dsc: enabled
+      - "1078":
+          dsc: enabled
+      - "1081":
+          name: Fog horn
+      - "88":
+          scrambler:
+            type: 32
+            code: 11
+
