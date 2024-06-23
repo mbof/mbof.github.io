@@ -1,0 +1,56 @@
+{
+  "configVersion": 1,
+  "timestamp": 1719134737702,
+  "index": "/hx/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/hx/assets/hx-512.png",
+        "/hx/assets/manifest.json",
+        "/hx/assets/radio.jpeg",
+        "/hx/favicon.ico",
+        "/hx/index.html",
+        "/hx/main-O2DZ5S57.js",
+        "/hx/polyfills-ASRMAOIL.js",
+        "/hx/styles-AJ6JCTSD.css"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/hx/assets/hx-512.png": "b5595b8a7536e16dbf3a13da9ac9e9d09871268d",
+    "/hx/assets/manifest.json": "b6c8ecf59c3400fd7af5d1b7349598df417f7b6b",
+    "/hx/assets/radio.jpeg": "f50184c2b74b0c6245463584e1eac39d24fb2cec",
+    "/hx/favicon.ico": "868c8868821c1031a3935a2fc751640355b246ac",
+    "/hx/index.html": "d2668fc85c593f204b2a335e28a22533abe76ec9",
+    "/hx/main-O2DZ5S57.js": "bc139178bd9c6794b948742879a3724fec0fd673",
+    "/hx/polyfills-ASRMAOIL.js": "53f7981503755f9d733fabe2d78667af2af633aa",
+    "/hx/styles-AJ6JCTSD.css": "5c899882ff145654c6c509c10e804b8cf752b91e"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
