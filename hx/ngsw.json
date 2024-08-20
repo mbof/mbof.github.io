@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1723614302126,
+  "timestamp": 1724125896752,
   "index": "/hx/index.html",
   "assetGroups": [
     {
@@ -16,7 +16,7 @@
         "/hx/assets/radio.jpeg",
         "/hx/favicon.ico",
         "/hx/index.html",
-        "/hx/main-JKOJ3EGK.js",
+        "/hx/main-KCRUPSBM.js",
         "/hx/polyfills-ASRMAOIL.js",
         "/hx/styles-AJ6JCTSD.css"
       ],
@@ -29,8 +29,8 @@
     "/hx/assets/manifest.json": "b6c8ecf59c3400fd7af5d1b7349598df417f7b6b",
     "/hx/assets/radio.jpeg": "f50184c2b74b0c6245463584e1eac39d24fb2cec",
     "/hx/favicon.ico": "868c8868821c1031a3935a2fc751640355b246ac",
-    "/hx/index.html": "6d403ecf89794b4656dba9e7edc0f2ade370ca77",
-    "/hx/main-JKOJ3EGK.js": "d583a079dba5e43045c1bdd0d67e8bb69a28b9aa",
+    "/hx/index.html": "0d963fcf962508c18b71f74edd144357c2fc0ea7",
+    "/hx/main-KCRUPSBM.js": "af4813bec4af1228d48b32c5c6631aac72b275d8",
     "/hx/polyfills-ASRMAOIL.js": "53f7981503755f9d733fabe2d78667af2af633aa",
     "/hx/styles-AJ6JCTSD.css": "5c899882ff145654c6c509c10e804b8cf752b91e"
   },
