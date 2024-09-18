@@ -51336,7 +51336,8 @@ var _DevicemgrService = class _DevicemgrService {
         let model2;
         const modelFromUsb = [...USB_DEVICE_CONFIGS.entries()].find(([_, filter2]) => filter2.usbProductId == portInfo.usbProductId && filter2.usbVendorId == portInfo.usbVendorId)?.[0];
         this.port.addEventListener("disconnect", (ev) => this.disconnect());
-        yield this.port.open({ baudRate: 9600 });
+        const baudRate = modelFromUsb ? 9600 : 38400;
+        yield this.port.open({ baudRate });
         this._streamReader = this.port?.readable?.getReader();
         this.reader = new ChunkReader(this._streamReader);
         this.writer = this.port?.writable?.getWriter();
@@ -52690,7 +52691,7 @@ var appConfig = {
 
 // src/environments/version.ts
 var version = "1.1.0-gx";
-var buildDate = "2024-09-14T06:05:34.281Z";
+var buildDate = "2024-09-18T05:17:28.350Z";
 var commitHash = "1d3f22776f9134aad9b5bec0834e6b242060e5c0";
 
 // src/app/app.component.ts
