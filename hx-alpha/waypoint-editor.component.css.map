@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/waypoint-editor/waypoint-editor.component.css"],
-  "sourcesContent": [".dialog {\n  display: block;\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n  background: white;\n  padding: 1em;\n  box-shadow: rgb(0, 0, 0, 0.3) 1px 1px 10px;\n  border-radius: 5px;\n}\n\nh2 {\n  margin-top: 10px;\n}\n\n.input {\n  margin: 0.5rem 0;\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n}\n\n.input input {\n  margin-left: 1rem;\n}\n\n.buttons {\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n}\n\n.error {\n  background-color: rgb(255 213 213);\n  font-size: 80%;\n  padding: 0.4rem;\n  color: darkred;\n}\n\n.desc {\n  font-size: 80%;\n}"],
-  "mappings": ";AAAA,CAAC;AACC,WAAS;AACT,YAAU;AACV,QAAM;AACN,OAAK;AACL,aAAW,UAAU,IAAI,EAAE;AAC3B,cAAY;AACZ,WAAS;AACT,cAAY,IAAI,CAAC,EAAE,CAAC,EAAE,CAAC,EAAE,KAAK,IAAI,IAAI;AACtC,iBAAe;AACjB;AAEA;AACE,cAAY;AACd;AAEA,CAAC;AACC,UAAQ,OAAO;AACf,WAAS;AACT,kBAAgB;AAChB,mBAAiB;AACnB;AAEA,CAPC,MAOM;AACL,eAAa;AACf;AAEA,CAAC;AACC,WAAS;AACT,kBAAgB;AAChB,mBAAiB;AACnB;AAEA,CAAC;AACC,oBAAkB,IAAI,IAAI,IAAI;AAC9B,aAAW;AACX,WAAS;AACT,SAAO;AACT;AAEA,CAAC;AACC,aAAW;AACb;",
-  "names": []
-}
