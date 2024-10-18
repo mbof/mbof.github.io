@@ -1,0 +1,58 @@
+{
+  "configVersion": 1,
+  "timestamp": 1729283047879,
+  "index": "/hx-alpha/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/hx-alpha/assets/hx-512.png",
+        "/hx-alpha/assets/manifest.json",
+        "/hx-alpha/assets/radio.jpeg",
+        "/hx-alpha/assets/sh-512.png",
+        "/hx-alpha/favicon.ico",
+        "/hx-alpha/index.html",
+        "/hx-alpha/main-BTZ4V665.js",
+        "/hx-alpha/polyfills-ASRMAOIL.js",
+        "/hx-alpha/styles-AJ6JCTSD.css"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/hx-alpha/assets/hx-512.png": "b5595b8a7536e16dbf3a13da9ac9e9d09871268d",
+    "/hx-alpha/assets/manifest.json": "8db62264cb1de56af75ce178649f651eb04828dd",
+    "/hx-alpha/assets/radio.jpeg": "f50184c2b74b0c6245463584e1eac39d24fb2cec",
+    "/hx-alpha/assets/sh-512.png": "05d8b5099dbbaad02ef5fd49ba964105aaf4430c",
+    "/hx-alpha/favicon.ico": "8ced542f21db45c56784878ac45d478488a41d3f",
+    "/hx-alpha/index.html": "d2ecd91e3cc796cdd9704710799c1adff8c13f7c",
+    "/hx-alpha/main-BTZ4V665.js": "fc038c7ec054ac4465f6f21afd94dfb15b6ae430",
+    "/hx-alpha/polyfills-ASRMAOIL.js": "53f7981503755f9d733fabe2d78667af2af633aa",
+    "/hx-alpha/styles-AJ6JCTSD.css": "5c899882ff145654c6c509c10e804b8cf752b91e"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
