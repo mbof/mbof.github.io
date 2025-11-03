@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1742392785123,
-  "index": "/hx-alpha/index.html",
+  "timestamp": 1762154321199,
+  "index": "hx-alpha/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,32 +11,32 @@
         "ignoreVary": true
       },
       "urls": [
-        "/hx-alpha/assets/hx-512.png",
-        "/hx-alpha/assets/manifest.json",
-        "/hx-alpha/assets/radio.jpeg",
-        "/hx-alpha/assets/radio.png",
-        "/hx-alpha/assets/sh-512.png",
-        "/hx-alpha/favicon.ico",
-        "/hx-alpha/index.html",
-        "/hx-alpha/main-FDCKWQYY.js",
-        "/hx-alpha/polyfills-4DBRYS5C.js",
-        "/hx-alpha/styles-2AJT6QAP.css"
+        "hx-alpha/assets/hx-512.png",
+        "hx-alpha/assets/manifest.json",
+        "hx-alpha/assets/radio.jpeg",
+        "hx-alpha/assets/radio.png",
+        "hx-alpha/assets/sh-512.png",
+        "hx-alpha/favicon.ico",
+        "hx-alpha/index.html",
+        "hx-alpha/main-2TGD6H22.js",
+        "hx-alpha/polyfills-4DBRYS5C.js",
+        "hx-alpha/styles-2AJT6QAP.css"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/hx-alpha/assets/hx-512.png": "b5595b8a7536e16dbf3a13da9ac9e9d09871268d",
-    "/hx-alpha/assets/manifest.json": "8db62264cb1de56af75ce178649f651eb04828dd",
-    "/hx-alpha/assets/radio.jpeg": "f50184c2b74b0c6245463584e1eac39d24fb2cec",
-    "/hx-alpha/assets/radio.png": "92d7d12e94d3b5df98f4efecb80af5957db78434",
-    "/hx-alpha/assets/sh-512.png": "05d8b5099dbbaad02ef5fd49ba964105aaf4430c",
-    "/hx-alpha/favicon.ico": "8ced542f21db45c56784878ac45d478488a41d3f",
-    "/hx-alpha/index.html": "15d85211f160d1ba1ac3c8df32948c8f41c7c76b",
-    "/hx-alpha/main-FDCKWQYY.js": "538ccf8a418339d741377bd30596a82f25d8a983",
-    "/hx-alpha/polyfills-4DBRYS5C.js": "2a6eba480012e9025c141a9d6628a7ac765c19e1",
-    "/hx-alpha/styles-2AJT6QAP.css": "682bb9ae3dcd0d8d005d692572bfcdf825abf9c0"
+    "hx-alpha/assets/hx-512.png": "b5595b8a7536e16dbf3a13da9ac9e9d09871268d",
+    "hx-alpha/assets/manifest.json": "8db62264cb1de56af75ce178649f651eb04828dd",
+    "hx-alpha/assets/radio.jpeg": "f50184c2b74b0c6245463584e1eac39d24fb2cec",
+    "hx-alpha/assets/radio.png": "92d7d12e94d3b5df98f4efecb80af5957db78434",
+    "hx-alpha/assets/sh-512.png": "05d8b5099dbbaad02ef5fd49ba964105aaf4430c",
+    "hx-alpha/favicon.ico": "8ced542f21db45c56784878ac45d478488a41d3f",
+    "hx-alpha/index.html": "317d9a7c9a0509e8fd1ec351f8f76445bbb55c2e",
+    "hx-alpha/main-2TGD6H22.js": "8fd8728c73461f565915dec331ed35898c00fcf3",
+    "hx-alpha/polyfills-4DBRYS5C.js": "2a6eba480012e9025c141a9d6628a7ac765c19e1",
+    "hx-alpha/styles-2AJT6QAP.css": "682bb9ae3dcd0d8d005d692572bfcdf825abf9c0"
   },
   "navigationUrls": [
     {
