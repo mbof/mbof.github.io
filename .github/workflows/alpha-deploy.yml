@@ -53,3 +53,4 @@ jobs:
         with:
           folder: hxsync-source/dist/hxsync/browser
           target-folder: hx-alpha
+          branch: main
