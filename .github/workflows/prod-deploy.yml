@@ -1,4 +1,4 @@
-name: Production Deploy (hxsync)
+name: Deploy SHsync to main
 
 on:
   workflow_dispatch:
