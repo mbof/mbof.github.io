@@ -1,0 +1,57 @@
+name: Production Deploy (hxsync)
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Tag or Branch to deploy from hxsync (e.g., v1.6.0)'
+        required: true
+        default: 'main'
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    steps:
+      - name: Checkout mbof.github.io
+        uses: actions/checkout@v4
+
+      - name: Checkout hxsync
+        uses: actions/checkout@v4
+        with:
+          repository: mbof/hxsync
+          ref: ${{ github.event.inputs.tag }}
+          path: hxsync-source
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: hxsync-source/package-lock.json
+
+      - name: Install Dependencies
+        run: |
+          cd hxsync-source
+          npm ci
+
+      - name: Run Unit Tests
+        run: |
+          cd hxsync-source
+          npm run test -- --watch=false --browsers=ChromeHeadless
+
+      - name: Build Application
+        run: |
+          cd hxsync-source
+          echo "${{ secrets.ANALYTICS_CODE }}" > .analytics
+          npm run build -- --base-href=/hx/ --configuration production
+
+      - name: Deploy to Production
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: hxsync-source/dist/hxsync/browser
+          target-folder: hx
+          branch: main
