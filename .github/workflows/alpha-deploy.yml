@@ -46,6 +46,7 @@ jobs:
       - name: Build Application
         run: |
           cd hxsync-source
+          echo "${{ secrets.ANALYTICS_CODE }}" > .analytics
           npm run build -- --base-href=/hx-alpha/ --configuration production
 
       - name: Deploy to Alpha
